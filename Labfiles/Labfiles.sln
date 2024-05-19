@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-custom-vision-image-classification", "07-custom-vision-image-classification", "{ACDDB1F0-7B73-4D6D-9EB0-70D07C284165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{1DD6455E-941D-4A4F-AE19-42492A391D91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test-classifier", "07-custom-vision-image-classification\C-Sharp\test-classifier\test-classifier.csproj", "{B6CC0E91-EB6F-4133-BD7C-2A5963CA66DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "train-classifier", "07-custom-vision-image-classification\C-Sharp\train-classifier\train-classifier.csproj", "{390AAC64-2B28-4DA7-90F4-3BBB9966785B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-face", "04-face", "{C60CA717-032A-4E59-B8AD-498E07F60DB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{C1970234-6761-4C1A-AC99-62BA161311A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "analyze-faces", "04-face\C-Sharp\face-api\analyze-faces.csproj", "{5C0035A4-0D2E-4A69-8ACB-6D24FAA654D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "detect-people", "04-face\C-Sharp\computer-vision\detect-people.csproj", "{9FFCFE71-FAF9-4637-A3B5-6303C0D5D666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-ocr", "05-ocr", "{F16AC48F-EC91-49B0-8C38-9B4520523214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{A70455E1-F921-417D-B195-48DE587212AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "read-text", "05-ocr\C-Sharp\read-text\read-text.csproj", "{E387E1BB-6AD4-47A1-8DDD-4957D98A05CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-object-detection", "03-object-detection", "{05F8D8DB-C7A2-4818-B652-7D69A77B5138}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{38AE710C-B8E1-417F-8DCF-AF496E8E498D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test-detector", "03-object-detection\C-Sharp\test-detector\test-detector.csproj", "{7EA1FBC3-2058-4EC8-9FA7-E5A8BC1A2874}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "train-detector", "03-object-detection\C-Sharp\train-detector\train-detector.csproj", "{E066C7A6-C3CC-4056-B973-C970B9BF1AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-analyze-images", "01-analyze-images", "{FF82FE6A-D374-4A3C-90B1-E0D3F27A592E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{695B6DC5-D5D4-4440-A2D5-59622FA8E37B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "image-analysis", "01-analyze-images\C-Sharp\image-analysis\image-analysis.csproj", "{6568A81F-F68B-4081-B4EC-EB9AA33687EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6CC0E91-EB6F-4133-BD7C-2A5963CA66DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CC0E91-EB6F-4133-BD7C-2A5963CA66DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CC0E91-EB6F-4133-BD7C-2A5963CA66DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CC0E91-EB6F-4133-BD7C-2A5963CA66DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390AAC64-2B28-4DA7-90F4-3BBB9966785B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390AAC64-2B28-4DA7-90F4-3BBB9966785B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390AAC64-2B28-4DA7-90F4-3BBB9966785B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390AAC64-2B28-4DA7-90F4-3BBB9966785B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0035A4-0D2E-4A69-8ACB-6D24FAA654D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0035A4-0D2E-4A69-8ACB-6D24FAA654D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0035A4-0D2E-4A69-8ACB-6D24FAA654D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0035A4-0D2E-4A69-8ACB-6D24FAA654D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFCFE71-FAF9-4637-A3B5-6303C0D5D666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFCFE71-FAF9-4637-A3B5-6303C0D5D666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFCFE71-FAF9-4637-A3B5-6303C0D5D666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFCFE71-FAF9-4637-A3B5-6303C0D5D666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E387E1BB-6AD4-47A1-8DDD-4957D98A05CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E387E1BB-6AD4-47A1-8DDD-4957D98A05CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E387E1BB-6AD4-47A1-8DDD-4957D98A05CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E387E1BB-6AD4-47A1-8DDD-4957D98A05CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA1FBC3-2058-4EC8-9FA7-E5A8BC1A2874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA1FBC3-2058-4EC8-9FA7-E5A8BC1A2874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA1FBC3-2058-4EC8-9FA7-E5A8BC1A2874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA1FBC3-2058-4EC8-9FA7-E5A8BC1A2874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E066C7A6-C3CC-4056-B973-C970B9BF1AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E066C7A6-C3CC-4056-B973-C970B9BF1AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E066C7A6-C3CC-4056-B973-C970B9BF1AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E066C7A6-C3CC-4056-B973-C970B9BF1AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6568A81F-F68B-4081-B4EC-EB9AA33687EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6568A81F-F68B-4081-B4EC-EB9AA33687EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6568A81F-F68B-4081-B4EC-EB9AA33687EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6568A81F-F68B-4081-B4EC-EB9AA33687EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DD6455E-941D-4A4F-AE19-42492A391D91} = {ACDDB1F0-7B73-4D6D-9EB0-70D07C284165}
+		{B6CC0E91-EB6F-4133-BD7C-2A5963CA66DE} = {1DD6455E-941D-4A4F-AE19-42492A391D91}
+		{390AAC64-2B28-4DA7-90F4-3BBB9966785B} = {1DD6455E-941D-4A4F-AE19-42492A391D91}
+		{C1970234-6761-4C1A-AC99-62BA161311A1} = {C60CA717-032A-4E59-B8AD-498E07F60DB0}
+		{5C0035A4-0D2E-4A69-8ACB-6D24FAA654D5} = {C1970234-6761-4C1A-AC99-62BA161311A1}
+		{9FFCFE71-FAF9-4637-A3B5-6303C0D5D666} = {C1970234-6761-4C1A-AC99-62BA161311A1}
+		{A70455E1-F921-417D-B195-48DE587212AA} = {F16AC48F-EC91-49B0-8C38-9B4520523214}
+		{E387E1BB-6AD4-47A1-8DDD-4957D98A05CF} = {A70455E1-F921-417D-B195-48DE587212AA}
+		{38AE710C-B8E1-417F-8DCF-AF496E8E498D} = {05F8D8DB-C7A2-4818-B652-7D69A77B5138}
+		{7EA1FBC3-2058-4EC8-9FA7-E5A8BC1A2874} = {38AE710C-B8E1-417F-8DCF-AF496E8E498D}
+		{E066C7A6-C3CC-4056-B973-C970B9BF1AFA} = {38AE710C-B8E1-417F-8DCF-AF496E8E498D}
+		{695B6DC5-D5D4-4440-A2D5-59622FA8E37B} = {FF82FE6A-D374-4A3C-90B1-E0D3F27A592E}
+		{6568A81F-F68B-4081-B4EC-EB9AA33687EF} = {695B6DC5-D5D4-4440-A2D5-59622FA8E37B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EEA6D31-490F-4B21-9CD1-D4E4FF0B9F03}
+	EndGlobalSection
+EndGlobal
